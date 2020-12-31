@@ -282,7 +282,7 @@
       (net 3 GND))
     (pad 40 thru_hole oval (at -2.54 -48.26 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 31 "/GPIO21(SPI1_SCK)"))
-    (model ${KISYS3DMOD}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_2x20_P2.54mm_Vertical.wrl
+    (model ${KICAD6_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_2x20_P2.54mm_Vertical.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
