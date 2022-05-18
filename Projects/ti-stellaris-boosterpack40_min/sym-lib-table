@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name "boosterpack")(type "KiCad")(uri "${KIPRJMOD}/boosterpack.kicad_sym")(options "")(descr ""))
-)

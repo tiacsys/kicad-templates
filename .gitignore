@@ -1,4 +1,5 @@
 *.bak
 *-bak
 *.bck
-build
+*-backups
+fp-info-cache

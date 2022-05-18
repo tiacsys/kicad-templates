@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name "minnowboard-ls-lure")(type "KiCad")(uri "${KIPRJMOD}/minnowboard-ls-lure.kicad_sym")(options "")(descr ""))
-)
