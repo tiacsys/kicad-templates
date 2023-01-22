@@ -254,7 +254,7 @@
       (net 33 "/PB2") (pinfunction "Pin_27") (pintype "passive") (tstamp 4cfee559-43f9-4254-9dcd-23a161f9200e))
     (pad "28" thru_hole oval locked (at 0 68.58) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
       (net 1 "GND") (pinfunction "Pin_28") (pintype "passive") (tstamp cc148cf1-ca69-4084-bbd9-678ec8b6b9dd))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x28_P2.54mm_Vertical.wrl"
+    (model "${KICAD7_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x28_P2.54mm_Vertical.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -370,7 +370,7 @@
       (net 34 "unconnected-(P2-Pin_27-Pad27)") (pinfunction "Pin_27") (pintype "passive+no_connect") (tstamp 9ef6b29d-39f0-44f7-afe6-578503d85b23))
     (pad "28" thru_hole oval locked (at 0 68.58 180) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
       (net 1 "GND") (pinfunction "Pin_28") (pintype "passive") (tstamp 3cf5f908-e08a-4849-a59e-8b1840d3963a))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x28_P2.54mm_Vertical.wrl"
+    (model "${KICAD7_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x28_P2.54mm_Vertical.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -442,7 +442,7 @@
       (net 6 "/PB14") (pinfunction "Pin_5") (pintype "passive") (tstamp 76ba356a-96ab-41c2-9d86-120d826e5e38))
     (pad "6" thru_hole oval (at 0 12.7 90) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
       (net 7 "/PB15") (pinfunction "Pin_6") (pintype "passive") (tstamp 33a02ad2-b998-402e-9fe1-9f4d55891732))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x06_P2.54mm_Vertical.wrl"
+    (model "${KICAD7_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x06_P2.54mm_Vertical.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
