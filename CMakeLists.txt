@@ -1,6 +1,6 @@
-project( kicad-templates NONE )
-
 cmake_minimum_required( VERSION 3.10 FATAL_ERROR )
+
+project( kicad-templates NONE )
 
 #================================================
 # Locations for install targets.
