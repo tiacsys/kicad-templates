@@ -104,80 +104,6 @@
 	(net 30 "unconnected-(H1-3V3_Power-Pad1)")
 	(net 31 "unconnected-(H1-UART_Rx-Pad26)")
 	(net 32 "unconnected-(H1-3V3_Power-Pad15)")
-	(footprint "emcosys:Hole_M2.5_small"
-		(layer "F.Cu")
-		(uuid "00000000-0000-0000-0000-00005ccbb41d")
-		(at 172.5 132.5)
-		(property "Reference" "REF**"
-			(at 0 -2.54 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "59ec3156-036e-4049-89db-91a9dd07095f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "Hole_M2.5_small"
-			(at 0 -2.54 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d39d813e-3e64-490c-ba5c-a64bb5ad6bd0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "emcosys:Hole_M2.5_small"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "714d2e77-5795-4d01-977a-f2d77210e6a9")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c57f7f93-f65c-4dfd-9a52-23115b292c36")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7c14a2e7-41f6-43c6-89b5-dc7cdaaeb3a9")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(attr through_hole)
-		(pad "1" thru_hole circle
-			(at 0 0)
-			(size 2.75 2.75)
-			(drill 2.75)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(uuid "6a2b20ae-096c-4d9f-92f8-2087c865914f")
-		)
-	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_2x16_P2.54mm_Horizontal"
 		(locked yes)
 		(layer "F.Cu")
@@ -203,6 +129,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -215,6 +142,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -227,6 +155,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -239,6 +168,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3060,6 +2990,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${KIPRJMOD}/faceplate/Edgeberry_Hardware_Cartridge_faceplate.step"
+			(offset
+				(xyz -43.5 -31.5 4.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 90)
+			)
+		)
 	)
 	(gr_line
 		(start 175 73.8)
@@ -3081,6 +3022,16 @@
 		(layer "Dwgs.User")
 		(uuid "34d03349-6d78-4165-a683-2d8b76f2bae8")
 	)
+	(gr_line
+		(start 177.2 43)
+		(end 175.2 43)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "50aaf685-8410-4fd8-a116-df0ef41ce69a")
+	)
 	(gr_poly
 		(pts
 			(xy 175 73.8) (xy 175 71.8) (xy 143.6 71.8) (xy 141.6 73.8)
@@ -3092,6 +3043,16 @@
 		(fill solid)
 		(layer "Dwgs.User")
 		(uuid "798acf71-d5a7-4dcf-adef-406e93938e42")
+	)
+	(gr_line
+		(start 175.2 43)
+		(end 175.2 138)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "93a86010-5055-41f0-af5f-9c9f81d83dea")
 	)
 	(gr_poly
 		(pts
@@ -3106,6 +3067,26 @@
 		(fill solid)
 		(layer "Dwgs.User")
 		(uuid "cc5b6ca0-99a7-4dbb-af27-aa0d0b560eea")
+	)
+	(gr_line
+		(start 175.2 138)
+		(end 177.2 138)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "d48adfb4-e0eb-4d0e-9b32-7b48cd92ab2e")
+	)
+	(gr_line
+		(start 177.2 138)
+		(end 177.2 43)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "dde5a4da-5d28-4250-b81b-d2359d748608")
 	)
 	(gr_line
 		(start 177 71.8)
@@ -3127,6 +3108,17 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "26801cfb-b53b-4a6a-a2f4-5f4986565765")
+	)
+	(gr_circle
+		(center 172.5 132.5)
+		(end 171.8 131.4)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "2757d97c-f292-45c7-a888-62a84c9c067d")
 	)
 	(gr_line
 		(start 175 132.5)
@@ -3263,7 +3255,7 @@
 			)
 		)
 	)
-	(gr_text "To fit the standard Edgeberry enclosure,\ncomponents on the top side should exceed\na height of 15mm, and on the bottom side\n1.5mm.\n\nA margin of at least 2mm on the left and\nright side of the board must be left clear\nof components to fit the enclosure\n\nThe backplate of the enclosure has a\nthickness of about 2mm. you can put\ncomponents, for example connectors, a\nbit over the edge of the board.\n\nFind more info on the Edgeberry project\non GitHub:\nhttps://github.com/SpuQ/EdgeBerry"
+	(gr_text "To fit the standard Edgeberry enclosure,\ncomponents on the top side should not\nexceed a height of 15mm, and on the \nbottom side 1.5mm.\n\nA margin of at least 2mm on the left and\nright side of the board must be left clear\nof components to fit the enclosure\n\nThe backplate of the enclosure has a\nthickness of about 2mm. you can put\ncomponents, for example connectors, a\nbit over the edge of the board.\n\nFind more info on the Edgeberry project\non GitHub:\nhttps://github.com/Edgeberry"
 		(at 191.075 110.625 0)
 		(layer "Dwgs.User")
 		(uuid "e0ec04e4-284b-4222-9fee-94971d15521d")
@@ -3349,7 +3341,7 @@
 			(xy 131.8 122.9) (xy 125.2 122.9)
 		)
 		(height -3.7)
-		(gr_text "6,6 mm"
+		(gr_text "6.6 mm"
 			(at 128.575 127.925 0)
 			(layer "Dwgs.User")
 			(uuid "35a5b539-cf0b-497e-bd1a-49fc8d05fb36")
@@ -3415,7 +3407,7 @@
 			(xy 131.8 121.975) (xy 131.8 134.975)
 		)
 		(height -2.85)
-		(gr_text "13,0 mm"
+		(gr_text "13.0 mm"
 			(at 133.5 128.475 90)
 			(layer "Dwgs.User")
 			(uuid "8e28cee2-ad49-4e83-acfa-29d92887d8ce")
@@ -3538,5 +3530,26 @@
 			(text_position_mode 2)
 			(extension_height 0.58642)
 			(extension_offset 0) keep_text_aligned)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "Dwgs.User")
+		(uuid "5e587c6b-500d-42ad-be06-2bfd63aa469c")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0.2)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 175.2 138) (xy 177.2 138) (xy 177.2 43) (xy 175.2 43)
+			)
+		)
 	)
 )
